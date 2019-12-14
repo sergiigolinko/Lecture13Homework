@@ -8,7 +8,7 @@ public class CalculatorWithExceptions {
 
     public static void main(String[] args) throws Exception {
         int option = -1;
-        System.out.println("Please enter numbers");
+        System.out.println("Please enter the numbers");
         while (true && option != 0) {
             int a = nextInt();
             int b = nextInt();
